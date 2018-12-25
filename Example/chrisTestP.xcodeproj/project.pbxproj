@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		83C0B05421D1C9E700CE3548 /* PodTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0B05321D1C9E700CE3548 /* PodTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D5582331C3A1615B4B5AD8 /* chrisTestP.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = chrisTestP.podspec; path = ../chrisTestP.podspec; sourceTree = "<group>"; };
+		00D5582331C3A1615B4B5AD8 /* chrisTestP.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = chrisTestP.podspec; path = ../chrisTestP.podspec; sourceTree = "<group>"; };
 		2572A0BC8F5D3FB7FC52F058 /* Pods_chrisTestP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chrisTestP_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		413DB61F0F4BDE95166ECB9D /* Pods_chrisTestP_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chrisTestP_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FD091A570FE38F3993DCE7 /* Pods-chrisTestP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chrisTestP_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chrisTestP_Tests/Pods-chrisTestP_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,8 +45,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		64D575799FDEBCBE89A1ECC4 /* Pods-chrisTestP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chrisTestP_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-chrisTestP_Example/Pods-chrisTestP_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A3A6B2AA988F478A768E9AC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E7E87199BC083BE5BE97F482 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83C0B05321D1C9E700CE3548 /* PodTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodTest.swift; sourceTree = "<group>"; };
+		A3A6B2AA988F478A768E9AC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E7E87199BC083BE5BE97F482 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA6C9D6F561394141E15ED00 /* Pods-chrisTestP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chrisTestP_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chrisTestP_Tests/Pods-chrisTestP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				83C0B05321D1C9E700CE3548 /* PodTest.swift */,
 			);
 			name = "Example for chrisTestP";
 			path = chrisTestP;
@@ -365,6 +368,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				83C0B05421D1C9E700CE3548 /* PodTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
