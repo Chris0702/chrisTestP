@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'chrisTestP'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'a test project.'
   s.swift_version    = '4'
 
@@ -34,9 +34,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'chrisTestP/Classes/**/*'
   
-  s.resource_bundles = {
-     'Test_PrivateCocoaPod_A' => ['chrisTestP/Assets/*.{storyboard,xib,xcassets,json,imageset,png}']
-   }
+
   # s.resource_bundles = {
   #   'chrisTestP' => ['chrisTestP/Assets/*.png']
   # }
