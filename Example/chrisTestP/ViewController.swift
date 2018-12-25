@@ -19,7 +19,20 @@ class ViewController: UIViewController {
         
 //        p.test()
 //        test()
-        
+//        let podBundle = Bundle.init(for: Test_A_ViewController.self)
+//        print(podBundle)
+//        let bundleURL = podBundle.url(forResource: "chrisTestP", withExtension: "bundle")
+//
+//        print("bundleURL")
+//        print("\(bundleURL != nil ? "yes" : "shit")")
+//
+//        let bundle = Bundle.init(url: bundleURL!)
+//        let storyboard = UIStoryboard(name: "chrisTestP", bundle: bundle)
+//
+//        vc = storyboard.instantiateViewController(withIdentifier: "Test_A_ViewController") as! Test_A_ViewController
+//        vc.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
+//        self.addChildViewController(vc)
+//        self.view .addSubview(vc.view)
     
     }
 
