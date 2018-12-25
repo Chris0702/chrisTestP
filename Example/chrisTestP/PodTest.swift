@@ -8,6 +8,8 @@
 
 import Foundation
 
-func test(){
-    print("這是我第一個 pod 專案")
+class PodTest {
+    func test(){
+        print("這是我第一個 pod 專案")
+    }
 }
